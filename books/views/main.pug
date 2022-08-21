@@ -1,0 +1,14 @@
+doctype html
+head 
+title LIBRARY 
+style 
+  include ../static/style.css
+body
+  h1 BOOKS AVAILABLE 
+UL 
+
+ h3 #{content}
+
+ form(action="/", method="post") 
+   input.b(type="text" placeholder="Enter book name" name="name")
+   input.submit(type="submit",value="ADD")
