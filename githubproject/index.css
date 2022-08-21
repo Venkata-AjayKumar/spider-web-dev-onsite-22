@@ -1,0 +1,36 @@
+BODY{
+    background-image: url("githublogo2.webp");
+    color:blue;
+}
+input{
+    padding:5px;
+    background-color: aqua;
+    color: brown;
+
+}
+.container{
+    position: absolute;
+    margin-left: 30vw;
+
+}
+button{
+    font-size: 15px;
+    background-color: rgb(145, 173, 173);
+    color: rgb(59, 36, 192);
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    height: 35px;
+    padding: 5px;
+    margin-left: 8vw;
+
+}
+button:hover {
+    background-color: blue; 
+    color: rgb(243, 250, 250);
+  }
+  #profilename,#repository,#followers,#following{
+    color: white;
+  }
+  h1{
+    text-align: center;
+  }

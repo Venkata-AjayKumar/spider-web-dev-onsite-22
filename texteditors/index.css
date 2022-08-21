@@ -1,0 +1,31 @@
+form{
+    display: grid;
+ grid-template-columns: auto;
+ position: absolute;
+ margin-left: 33vw;
+ 
+
+}
+input{
+    width: 30vw;
+    padding: 5px;
+}
+#submit{
+    width:10vw;
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    background-color: blue;
+    color: aliceblue;
+
+    
+
+}
+#submit:hover{
+    background-color: aliceblue;
+    color: blue;
+}
+body{
+    background-color: aqua;
+    
+}
